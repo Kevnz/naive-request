@@ -1,0 +1,25 @@
+{
+  "name": "naive-request",
+  "version": "0.0.1",
+  "description": "Very simple and naive xmlhttp library for the browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Kevnz/naive-request.git"
+  },
+  "keywords": [
+    "http",
+    "request",
+    "xmlhttp",
+    "browserify"
+  ],
+  "author": "Kevin Isom <kevin.isom@gmail.com>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Kevnz/naive-request/issues"
+  },
+  "homepage": "https://github.com/Kevnz/naive-request"
+}
