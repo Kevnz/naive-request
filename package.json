@@ -1,6 +1,6 @@
 {
   "name": "naive-request",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Very simple and naive xmlhttp library for the browser.",
   "main": "index.js",
   "scripts": {
