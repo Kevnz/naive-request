@@ -1,10 +1,11 @@
 {
   "name": "naive-request",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Very simple and naive xmlhttp library for the browser.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "browserify-test ./test/index.js",
+    "start": "browserify-test --watch ./test/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/Kevnz/naive-request/issues"
   },
-  "homepage": "https://github.com/Kevnz/naive-request"
+  "homepage": "https://github.com/Kevnz/naive-request",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "browserify-test": "^1.1.0",
+    "mocha": "^2.2.1"
+  }
 }
