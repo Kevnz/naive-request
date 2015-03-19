@@ -16,11 +16,9 @@ module.exports = {
             qstring = querystring.stringify(data);
             endpoint = endpoint + '?' + qstring;
         }
-        var q = new XMLHttpRequest();
-        console.log(q);
+        var q = new XMLHttpRequest(); 
         q.open('GET', endpoint, false);
-        q.send(null);
-        console.log(q.response);
+        q.send(null); 
         if (node) {
            return JSON.parse(q.response)[node]; 
         }
