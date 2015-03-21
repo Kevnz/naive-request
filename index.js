@@ -23,5 +23,12 @@ module.exports = {
            return JSON.parse(q.response)[node]; 
         }
         return JSON.parse(q.response);
+    },
+    post: function (url, data) {
+        var q = new XMLHttpRequest(); 
+        q.open('POST', endpoint, false);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        q.send(data); 
+        return JSON.parse(q.response);
     }
 };
