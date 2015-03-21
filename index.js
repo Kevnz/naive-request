@@ -24,7 +24,7 @@ module.exports = {
         }
         return JSON.parse(q.response);
     },
-    post: function (url, data) {
+    post: function (endpoint, data) {
         var q = new XMLHttpRequest(); 
         q.open('POST', endpoint, false);
         xhr.setRequestHeader('Content-Type', 'application/json');
