@@ -28,7 +28,7 @@ module.exports = {
         var q = new XMLHttpRequest(); 
         q.open('POST', endpoint, false);
         q.setRequestHeader('Content-Type', 'application/json');
-        q.send(data); 
+        q.send(JSON.stringify(data)); 
         return q.response;
     }
 };
